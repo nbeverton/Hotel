@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #3d3d3d;
+    background-color: #fff;
+}
+
+.header{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+}
+
+.header div{
+    display: inline;
+    margin: 15px;
+}
+
+.link-topo{
+    text-decoration: none;
+    color: darkslategrey;
+    padding: 0 15px;
+}
+
+span{
+    color: aquamarine;
+}
+
+.apresentacao{
+    text-align: center;
+    background-image: url("assets/img-fundo.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao-titulo{
+    height: 250px;
+    width: 500px;
+    border: 1px solid white;
+    background-color: aquamarine;
+    opacity: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.texto{
+    text-align: center;
+    font-size: 20px;
+    color: #3d3d3d;
+}
+
+.quartos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.quadro-quarto{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.imagem-quarto{
+    height: 200px;
+
+}
+
+.quartos a{
+    text-decoration: none;
+    margin: 20px 0;
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid aqua;
+}
+
+.sobre{
+    max-width: 1240px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+    background-color: purple;
+}
+
+.quadro-sobre{
+    display: flex;
+    flex-flow: row wrap;
+    width: 250px;
+    flex: 1 1 auto;
+    background-color: black;
+}
+
+.sobre img{
+    height: 113px;
+    width: 100px;
+    object-fit: cover;
+    margin-left: 10px;
+    float: right;
+    width: 100px;
+    left: 0;
+}
+
+.img-sobre{
+    display: flex;
+    flex-direction: row;
+
+}
+
+Eu comecei a escrever o código ontem a noite e me deparei com este problema do box com opacity. Além disso estou sofrendo um pouco para inserir a fonte externa. Eu inseri o link e quando chamo no arquivo CSS ela não aparece para mim. Eu preciso fazer alguma outra alteração?
